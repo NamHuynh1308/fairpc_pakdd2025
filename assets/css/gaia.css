@@ -227,6 +227,13 @@ a:hover {
   text-align: center;
   position: relative;
 }
+.separator-b {
+  color: black;
+  margin: 0 auto 20px;
+  max-width: 240px;
+  text-align: center;
+  position: relative;
+}
 .separator:before, .separator:after {
   display: block;
   width: 40%;
@@ -234,15 +241,31 @@ a:hover {
   margin-top: 10px;
   border: 1px solid #c5a47e;
 }
+.separator-b:before, .separator-b:after {
+  display: block;
+  width: 40%;
+  content: " ";
+  margin-top: 10px;
+  border: 1px solid black;
+}
 .separator:before {
   float: left;
 }
 .separator:after {
   float: right;
 }
+.separator-b:before {
+  float: left;
+}
+.separator-b:after {
+  float: right;
+}
 
 .separator-danger {
   color: #e78b90;
+}
+.separator-black {
+  color: black;
 }
 .separator-danger:before, .separator-danger:after {
   border-color: #e78b90;
